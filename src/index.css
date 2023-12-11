@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Ephesis&family=Montserrat&display=swap");
+body {
+  font-family: "Ephesis", cursive;
+  font-family: "Montserrat", sans-serif;
+}
+.header-bg-fon {
+  background-image: url(https://res.cloudinary.com/dviivhiqd/image/upload/v1702279288/vegetables-set-left-black-slate_lqwhqp.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 110vh;
+}
+.section2-bg-fon{
+  background-image: url(https://res.cloudinary.com/dviivhiqd/image/upload/v1702279189/fresh-salad-with-turkey-eggs-vegetables_hvbl1s.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+.blog-bg-fon{
+  background-image: url(https://res.cloudinary.com/dviivhiqd/image/upload/v1702279481/juicy-steak-medium-rare-beef-with-spices-grilled-vegetables_karxor.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}

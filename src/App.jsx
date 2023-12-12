@@ -1,3 +1,4 @@
+import About from './Components/About/About'
 import Footer from './Components/Footer/Footer'
 import Home from './Components/Home/Home'
 import Navbar from './Components/Navbar/Navbar'
@@ -11,8 +12,9 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path='/About' element={<About />} />
         </Routes>
-        <Footer/>
+        <Footer />
       </BrowserRouter>
     </>
   )

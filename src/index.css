@@ -12,7 +12,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 110vh;
+  height: 100vh;
 }
 .section2-bg-fon{
   background-image: url(https://res.cloudinary.com/dviivhiqd/image/upload/v1702279189/fresh-salad-with-turkey-eggs-vegetables_hvbl1s.jpg);
@@ -25,6 +25,16 @@ body {
 }
 .blog-bg-fon{
   background-image: url(https://res.cloudinary.com/dviivhiqd/image/upload/v1702279481/juicy-steak-medium-rare-beef-with-spices-grilled-vegetables_karxor.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.section3-bg-fon{
+  background-image: url(https://res.cloudinary.com/dviivhiqd/image/upload/v1702279371/dietary-menu-healthy-vegan-salad-vegetables-broccoli-mushrooms-spinach-quinoa-bowl-flat-lay-top-view_wqsrqi.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;

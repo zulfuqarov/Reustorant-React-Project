@@ -1,9 +1,10 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import Button from '../../Button/Button'
-const Section2 = () => {
-    return (
-        <section className='section2-bg-fon mt-[70px] rounded-3xl flex flex-col justify-end h-[100%]'>
+import { Link } from 'react-router-dom'
+
+const Section3 = () => {
+  return (
+    <section className='section3-bg-fon mt-[70px] rounded-3xl flex flex-col justify-end h-[100%]'>
             <div className='container mx-auto'>
                 <div className='h-[450px] pl-[30px] max-sm:pl-[10px]'>
                     <div className='pb-[30px]'>
@@ -19,7 +20,7 @@ const Section2 = () => {
                 </div>
             </div>
         </section>
-    )
+  )
 }
 
-export default Section2
+export default Section3

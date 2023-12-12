@@ -1,3 +1,4 @@
+import Footer from './Components/Footer/Footer'
 import Home from './Components/Home/Home'
 import Navbar from './Components/Navbar/Navbar'
 import './index.css'
@@ -11,6 +12,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
+        <Footer/>
       </BrowserRouter>
     </>
   )

@@ -6,7 +6,7 @@ const Blog = () => {
     return (
         <section className='blog-bg-fon mt-[70px] rounded-3xl flex flex-col justify-end h-[100%]'>
             <div className='container mx-auto'>
-                <div className='h-[400px] pl-[30px]'>
+                <div className='h-[400px] pl-[30px] max-sm:pl-[10px]'>
                     <div className='pb-[30px]'>
                         <p className='text-white font-bold text-[18px]'>OUR RESTAURANT</p>
                     </div>
